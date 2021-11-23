@@ -14,7 +14,7 @@ module.exports = {
   flags: {
     FAST_DEV: true,
   },
-  plugins: [
+  /* plugins: [
     {
       resolve: "gatsby-source-shopify",
       options: {
@@ -37,5 +37,5 @@ module.exports = {
         trackingId: process.env.GOOGLE_ANALYTICS_ID,
       },
     },
-  ].filter(Boolean),
+  ].filter(Boolean), */
 }
